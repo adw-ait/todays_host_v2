@@ -31,9 +31,9 @@ const App = () => {
   }, [isRendering]);
 
   return (
-    <div className="App animate__animated animate__zoomInUp">
-      <h1 className="title">Host for The Standup</h1>
-      <div className="nameContainer">
+    <div className="App">
+      <h1 className="title animated">Host for The Standup</h1>
+      <div className="nameContainer animated">
         <h1 onClick={() => startRendering()} className="names">
           {name}
         </h1>
